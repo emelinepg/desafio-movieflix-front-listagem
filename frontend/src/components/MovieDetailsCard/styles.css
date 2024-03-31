@@ -1,0 +1,106 @@
+.movie-details-card-container {
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.movie-details-image-container {
+  margin-bottom: 20px;
+}
+
+.movie-details-image-container img {
+  width: 100%;
+  height: auto;
+  max-width: 610px;
+}
+
+.movie-details-title-year-container h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: white;
+  margin-bottom: 2px;
+}
+
+.movie-details-title-year-container h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #ffc700;
+  margin-bottom: 2px;
+}
+
+.movie-details-title-year-container h4 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.movie-details-synopsis-container {
+  color: #9e9e9e;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-align: justify;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+  padding: 15px 10px;
+}
+
+.movie-details-synopsis-container p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+    .movie-details-card-container {
+        padding: 40px;
+    }
+
+    .movie-details-image-container {
+        text-align: center;
+    }
+
+    .movie-details-title-year-container h1 {
+        font-size: 36px;
+        margin-bottom: 2px;
+      }
+      
+      .movie-details-title-year-container h3 {
+        font-size: 24px;
+        margin-bottom: 2px;
+      }
+      
+      .movie-details-title-year-container h4 {
+        font-size: 24px;
+        margin-bottom: 30px;
+      }
+
+      .movie-details-synopsis-container {
+        font-size: 18px;
+      }
+}
+
+@media (min-width: 1200px) {
+    .movie-details-card-container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .movie-details-image-container {
+        margin-bottom: 0;
+    }      
+
+    .movie-details-image-container img {
+        height: auto;
+        width: 500px;
+    }
+
+    .movie-details-info-container {
+        margin-left: 40px;
+    }
+}

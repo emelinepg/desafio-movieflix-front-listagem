@@ -1,0 +1,22 @@
+.review-card {
+    padding: 25px 10px;
+    margin-bottom: 20px;
+}
+
+.review-submit {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.review-submit .btn-container {
+    width: 100%;
+    max-width: 334px;
+}
+
+@media (min-width: 768px) {
+    .review-card {
+        padding: 25px 20px;
+        margin-bottom: 25px;
+    }
+}

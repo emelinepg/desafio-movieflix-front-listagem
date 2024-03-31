@@ -1,0 +1,35 @@
+.review-author {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.review-author img {
+    height: 15px;
+    width: auto;
+    margin-right: 15px;
+}
+.review-author h4 {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.015em;
+    color: white;
+}
+
+.review-text {
+    color: #9E9E9E;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    text-align: justified;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+    padding: 10px 20px 20px 10px;
+    margin-bottom: 15px;
+}
+
+.review-text p {
+    margin: 0;
+}

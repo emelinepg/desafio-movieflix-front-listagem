@@ -1,0 +1,49 @@
+.movie-card-container {
+  padding: 25px 0;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.movie-image-container img {
+  width: 100%;
+  height: auto;
+  max-width: 610px;
+}
+
+.movie-info-container {
+  padding: 20px;
+}
+
+.movie-info-container h1 {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: white;
+  margin-bottom: 2px;
+}
+
+.movie-info-container h3 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: #ffc700;
+  margin-bottom: 2px;
+}
+
+.movie-info-container h4 {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.015em;
+  text-align: left;
+  color: white;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .movie-card-container {
+      padding: 20px 0 55px 0;
+      margin-top: 40px;
+    }
+}

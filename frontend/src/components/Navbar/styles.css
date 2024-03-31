@@ -1,0 +1,45 @@
+.main-nav {
+  padding: 20px;
+  min-height: 68px;
+  background-color: #ffc700;
+  font-size: 24px;
+  letter-spacing: -0.015em;
+  color: black;
+}
+
+.nav-logo-text {
+  margin-left: 20px;
+}
+
+.logout-container {
+  margin-right: 20px;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 100px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .nav-logo-text {
+    margin-left: 30px;
+  }
+  
+  .logout-container {
+    margin-right: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .nav-logo-text {
+    margin-left: 40px;
+  }
+  
+  .logout-container {
+    margin-right: 40px;
+  }
+}
