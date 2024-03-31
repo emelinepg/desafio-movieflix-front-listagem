@@ -6,6 +6,7 @@ import { useParams } from 'react-router-dom';
 import { BASE_URL } from 'utils/requests';
 import { useReviewContext } from 'ReviewContext';
 import { useForm } from 'react-hook-form';
+import { toast } from 'react-toastify';
 
 type FormData = {
   review: string;
@@ -45,10 +46,12 @@ const ReviewCard = () => {
       .then((response) => {
         console.log(response.data);
         updateList();
+        toast.info('Avaliação enviada com sucesso!');
         setFormData({ review: '' });
       })
       .catch((error) => {
         console.log(error);
+        toast.error('Não é permitido texto vazio!');
       });
   };
 

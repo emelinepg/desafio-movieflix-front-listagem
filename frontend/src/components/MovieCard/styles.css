@@ -41,9 +41,27 @@
   margin-bottom: 15px;
 }
 
+@media (min-width: 576px) {
+  .movie-card-container {
+    height: 322px;
+  }
+}
+
 @media (min-width: 768px) {
     .movie-card-container {
-      padding: 20px 0 55px 0;
+      height: 364px;
       margin-top: 40px;
     }
+}
+
+@media (min-width: 992px) {
+  .movie-card-container {
+    height: 457px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .movie-card-container {
+    height: 322px;
+  }
 }

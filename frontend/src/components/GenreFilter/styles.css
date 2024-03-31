@@ -1,0 +1,42 @@
+.genre-filter-container {
+    padding: 5px 20px;
+    height: 60px;
+}
+
+.genre-filter-options-container {
+    height: 50px;
+    width: 260px;
+}
+
+.genre-filter-select__control {
+    font-size: 16px;
+    letter-spacing: -0.015em;
+    background-color: #6c6c6c !important;
+    border: 1px solid #e1e1e1 !important;
+    height: 50px;
+}
+
+.genre-filter-select__control--is-focused {
+    box-shadow: none !important;
+}
+
+.genre-filter-select__placeholder {
+    color: #e1e1e1 !important;
+}
+
+.genre-filter-select__single-value {
+    color: white !important;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.genre-filter-select__indicator-separator {
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .genre-filter-container {
+        height: 80px;
+        padding: 15px 20px;
+    }
+}
